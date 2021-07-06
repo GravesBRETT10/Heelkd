@@ -1,0 +1,256 @@
+body {
+    font-family: 'Gruppo', sans-serif;
+    background-image: url(../img/bg.png);
+}
+
+.content {
+    min-height: calc(100vh - 170px - 85px);
+}
+
+/* =================================
+            Headers
+================================= */
+
+h1 {
+    text-align: center;
+    color: #03dbfc;
+    font-family: 'Audiowide', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-weight: 900;
+    border: 3px solid #03dbfc;
+    color: #fa00ed;
+    border-bottom: 0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-image: url(../img/scheduleBG.png);
+}
+
+h4 {
+    text-align: center;
+    color: #03dbfc;
+    margin-top: -10px;
+}
+a {
+    text-align: center;
+    color: #03dbfc;
+    font-size: 14px;
+    font-family: 'Audiowide', sans-serif;
+}
+mark {
+  background-color: #03dbfc;
+  color: #fa00ed;
+}
+
+/* =================================
+            Navbar
+================================= */
+
+.fa-bars {
+    color: #03dbfc;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+.navbar {
+    background-image: url(../img/scheduleBG.png);
+    color: #03dbfc;
+}
+
+.navbar-nav a {
+    color: #eee;
+}
+
+.navbar-nav a:hover {
+    text-decoration: none;
+    color: #03dbfc;
+}
+
+.navbar-nav .active {
+    color: #03dbfc;
+}
+
+.logo img {
+    padding: 0 15px;
+    height: 85px;
+}
+
+.divider:after {
+    content: "|";
+    color: #eee;
+}
+
+/* =================================
+            Home
+================================= */
+
+#titleBox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 6px solid #03dbfc;
+    border-radius: 7px;
+    background-image: url(../img/scheduleBG.png);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.widgets {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: columns;
+    justify-content: center;
+}
+
+.widgets div {
+    margin: 0 25px;
+    color: #03dbfc;
+}
+
+.days li {
+    width: 400px;
+    text-align: center;
+    font-size: 28px;
+    color: #fa00ed;
+    border: 3px solid #03dbfc;
+    border-bottom: 0px;
+    background-image: url(../img/scheduleBG.png);
+}
+
+.days li:last-child {
+    border: 3px solid #03dbfc;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.days span {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.schedule ul li strong {
+    color: #03dbfc;
+}
+
+/* =================================
+            About
+================================= */
+
+.aboutMe {
+    border: 6px solid #03dbfc;
+    border-radius: 7px;
+    padding: 25px;
+    font-size: 18px;
+    color: #03dbfc;
+    background-image: url(../img/scheduleBG.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profilePic {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 6px solid #03dbfc;
+    border-radius: 7px;
+}
+
+.signature {
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    color: #03dbfc;
+}
+
+/* =================================
+            Highlights
+================================= */
+
+.instaPosts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.singlePost {
+    margin: 0 5px;
+}
+
+blockquote a {
+    color: #03dbfc;
+}
+
+blockquote a:hover {
+    color: #03dbfc;
+}
+
+/* =================================
+            Live Stream
+================================= */
+
+.liveStream {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* =================================
+            Contact
+================================= */
+
+.contactVia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 30%;
+    border: 6px solid #03dbfc;
+    border-radius: 7px;
+    background-image: url(../img/scheduleBG.png);
+    padding: 25px 0;
+}
+
+.contactSingle {
+    margin: 0 5%;
+    text-align: center;
+    background-image: url(../img/scheduleBG.png);
+}
+
+.contactSingle a {
+    color: #03dbfc;
+}
+
+.contactSingle a:hover {
+    color: #44c823;
+    text-decoration: none;
+}
+
+/* =================================
+            Footer
+================================= */
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-image: url(../img/scheduleBG.png);
+    color: #fff;
+    text-align: center;
+    padding-top: 13px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+footer a {
+    color: #03dbfc;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #44c823;
+}
